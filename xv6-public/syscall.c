@@ -104,10 +104,7 @@ extern int sys_wait(void);
 extern int sys_write(void);
 extern int sys_uptime(void);
 extern int sys_shutdown(void);
-<<<<<<< HEAD
 extern int sys_rewoot(void);
-=======
->>>>>>> 91eb68711a3daa9199a0ca4a6373d981e26fad3f
 
 static int (*syscalls[])(void) = {
 [SYS_fork]    sys_fork,
@@ -131,12 +128,8 @@ static int (*syscalls[])(void) = {
 [SYS_link]    sys_link,
 [SYS_mkdir]   sys_mkdir,
 [SYS_close]   sys_close,
-<<<<<<< HEAD
 [SYS_shutdown] sys_shutdown,
 [SYS_rewoot] sys_rewoot,
-=======
-[SYS_shutdown]   sys_shutdown,
->>>>>>> 91eb68711a3daa9199a0ca4a6373d981e26fad3f
 };
 
 void
