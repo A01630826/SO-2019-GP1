@@ -20,5 +20,9 @@
 #define SYS_link   19
 #define SYS_mkdir  20
 #define SYS_close  21
+<<<<<<< HEAD
 #define SYS_shutdown 22
 #define SYS_rewoot 23
+=======
+#define SYS_shutdown 22
+>>>>>>> 91eb68711a3daa9199a0ca4a6373d981e26fad3f

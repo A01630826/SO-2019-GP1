@@ -24,8 +24,11 @@ char* sbrk(int);
 int sleep(int);
 int uptime(void);
 int shutdown(void);
+<<<<<<< HEAD
 int rewoot(void);
 
+=======
+>>>>>>> 91eb68711a3daa9199a0ca4a6373d981e26fad3f
 // ulib.c
 int stat(const char*, struct stat*);
 char* strcpy(char*, const char*);
