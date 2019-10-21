@@ -3,25 +3,18 @@
 #include <string.h>
 
 int main() {
-  int num = 0;
-  int a=0;
-  fprintf(stderr, "imprimendo los primos del 1 al 100 \n");
+    int primo = 0;
+    int num = 0;
 
-  while(1){
-    int a=0;
-    scanf("%d\n",&num);//noten que leo de stdout
-    if(num == -1){
-      break;
-    }
-    for(int i=1; i<100; i++){
-        if(num % i == 0){
-            a++;
+    scanf("%d\n",&primo);
+    fprintf(stderr, "%d\n", primo);
+
+    while(num >= 0) {
+        scanf("%d\n",&num); // //noten que leo de stdout
+
+        if(num % primo != 0){
+            printf("%d\n",num);
         }
     }
-    if(a==2){
-        fprintf(stderr,"%d\n",num);
-    }
-
-  }
-  fprintf(stderr, "completado\n");
+    printf("%d\n",num);
 }
